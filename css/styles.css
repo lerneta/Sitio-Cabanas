@@ -158,13 +158,14 @@ ol li {
 
 .cardimg:hover {
   filter: brightness(20%);
+  transform: scale(2, 1);
 }
 .cardimg:hover + .servicios {
   opacity: 1;
 }
 
 footer {
-  background: black;
+  background: linear-gradient(to right, rgb(2, 128, 42), rgb(5, 33, 9));
   padding: 30px;
   padding-bottom: 30px;
   display: flex;
