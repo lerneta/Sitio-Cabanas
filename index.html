@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabañas Las Hermanas</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>   
     <!-- Seccion principal --> 
@@ -13,10 +15,10 @@
     <div class="image--principal">
         <div id="header">
             <nav>
-            <ul class="nav">        
-            <li><a href="pages/contacto.html">Contacto</a></li>
-            <li><a href="pages/cabanas.html">Nuestras Cabañas</a></li>
-            <li><a href="#">Home</a></li>
+            <ul class="nav">      
+                <li><a href="#">Home</a></li>  
+                <li><a href="pages/cabanas.html">Nuestras Cabañas</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
             </div>
@@ -40,19 +42,19 @@
         <div class="image--dos">         
         </div>
     </section>
-    <section>
+    <section class="container margen">
         <h2>Qué tenemos para ofrecerte</h2>
         <!-- Comienzo apartado efectos --> 
-        <div class="cards">
-            <div>
+        <div class="cards row">
+            <div class="col-md-4 col-xs-4">
                 <img class="cardimg"  src="images/picnic.jpg">
                 <p class="servicios acomodar"><b>Desayunos personalizados</b></p>
             </div>
-            <div>
+            <div class="col-md-4 col-xs-4">
                 <img class="cardimg"  src="images/cabalgata.jpg">
                 <p class="servicios"><b>Cabalgatas</b></p>
             </div>
-            <div>
+            <div class="col-md-4 col-xs-4">
                 <img class="cardimg"  src="images/trekking.jpg">
                 <p class="servicios"><b>Paseos guiados</b></p>
             </div>        
