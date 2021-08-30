@@ -23,13 +23,29 @@
 <section>
     <div class="image--principal">
         <div id="header">
-            <nav>
-            <ul class="nav">      
-                <li><a href="#">Home</a></li>  
-                <li><a href="pages/cabanas.html">Nuestras Cabañas</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            
+                
+                <!-- enlaces -->
+                <div class="collapse navbar-collapse" id="opciones">   
+                <ul class="navbar-nav">
+                    <li class="nav-item padding">
+                    <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item padding">
+                    <a class="nav-link" href="pages/cabanas.html">Nuestras Cabañas</a>
+                    </li>
+                    <li class="nav-item padding">
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </li>
+                            
+                </ul>
+                </div>
+            </nav>
             </div>
             <div class="containercenter">
             <img src="images/logocirculo.png" class="logoeffect" alt="">
@@ -42,7 +58,7 @@
 
 <!-- Cuerpo --> 
     <section>    
-        <div class="divisor">
+        <div class="divisor letra">
             <p>Ubicado a Sólo 2.3 kilómetros del Parque Nacional los Alerces, las cabañas Las Hermanas ofrece todo
                 lo que necesitas para disfrutar de unas vacaciones memorables. El predio posee una tranquilidad muy 
                 característica, rodeada de amplios bosques con muchas actividades para disfrutar. A diferencia de otros
@@ -67,7 +83,7 @@
                 
                 </div>
                 <div class="carousel-item">
-                <img src="images/portada.png" alt="portada2">
+                <img src="images/portada2.png" alt="portada2">
                 </div>
             </div>
             <!-- Left and right controls -->
@@ -102,15 +118,64 @@
 
 <!-- Footer --> 
     <section>
-        <footer>
-            <nav>
-                <ul class="nav2">        
-                <li><a href="pages/contacto.html">Contacto</a></li>
-                <li><a href="pages/cabanas.html">Nuestras Cabañas</a></li>
-                <li><a href="#">Home</a></li>
-                </ul>
-            </nav>
-        </footer>
+       <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">Las hermanas</h5>
+          <p>Un sitio para descansar. <BR/> Reserva con 7 días de anticipación</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+        
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Mapa del sitio</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+            <li>
+              <a href="pages/cabanas.html">Cabañas</a>
+            </li>
+            <li>
+              <a href="pages/contacto.html">Contacto</a>
+            </li>
+         
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  </footer>
+  <!-- Footer -->
     </section>
     <!-- Final de Footer --> 
 </body>

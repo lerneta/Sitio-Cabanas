@@ -44,7 +44,7 @@ ol li {
 /*Imagenes*/
 
 .image--principal {
-  background-image: url("../images/3663988.jpg");
+  background-image: url("../images/portada3.jpg");
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -53,13 +53,6 @@ ol li {
   background-image: url("../images/portada.png");
   background-size: cover;
   height: 40vh;
-  width: 100%;
-}
-
-.image--cabanas {
-  background-image: url("../images/cabanas.png");
-  background-size: cover;
-  height: 100vh;
   width: 100%;
 }
 
@@ -95,15 +88,6 @@ ol li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logoeffect {
-  width: 400px;
-  transition: all 1s;
-}
-
-.logoeffect:hover {
-  width: 450px;
-}
-
 .containercenter {
   display: flex;
   justify-content: center;
@@ -111,11 +95,51 @@ ol li {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .letra {
+    font-size: 20px;
+  }
+  .logoeffect {
+    width: 300px;
+    margin-top: 20vh;
+  }
+  .image--cabanas {
+    background-image: url("../images/portada.png");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (min-width: 601px) {
+  .letra {
+    font-size: 25px;
+  }
+  .logoeffect {
+    width: 400px;
+    transition: all 1s;
+    margin-top: 20vh;
+  }
+
+  .logoeffect:hover {
+    width: 450px;
+  }
+
+  .image--cabanas {
+    background-image: url("../images/cabanas.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+.padding {
+  padding-left: 35px;
+}
+
 .divisor {
   background: white;
   padding: 50px;
   text-align: center;
-  font-size: 30px;
   color: dimgray;
 }
 
@@ -198,12 +222,13 @@ ol li {
 
 /* Footer*/
 footer {
-  background: linear-gradient(to right, rgb(2, 128, 42), rgb(5, 33, 9));
+  background: linear-gradient(to right, rgb(1, 72, 24), rgb(5, 33, 9));
   padding: 30px;
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .nav2 li a {
